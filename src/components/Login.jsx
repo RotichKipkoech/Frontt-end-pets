@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import './Login.css'; // Import your CSS file
+import './Login.css'; 
 
 const Login = () => {
   const navigate = useNavigate();
@@ -20,9 +20,6 @@ const Login = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Add your login logic here (e.g., send data to server, etc.)
-
-    // For this example, let's assume login is successful
     alert('Login Successful!'); // Show an alert
 
     // Navigate to the dashboard page after successful login
