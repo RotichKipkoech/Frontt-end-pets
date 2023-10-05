@@ -13,9 +13,6 @@ const Register = () => {
   const handleRegistrationSubmit = (e) => {
     e.preventDefault();
 
-    // Add your registration logic here (e.g., send data to server, etc.)
-
-    // For this example, let's assume registration is successful
     alert('Registration Successful!'); // Show an alert
 
     // Navigate to login page after successful registration
@@ -24,7 +21,7 @@ const Register = () => {
 
   return (
     <div className="register-container">
-      <h2>Login Page</h2>
+      <h2>Register here!</h2>
       <button onClick={handleRegister}>Register</button>
 
       {showRegistration && (

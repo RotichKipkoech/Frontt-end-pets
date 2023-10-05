@@ -1,29 +1,49 @@
+/* Login.css */
+
 .login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
-    margin: 50px;
   }
   
   .login-container h2 {
+    font-size: 2em;
     margin-bottom: 20px;
   }
   
-  .login-container label,
-  .login-container input {
-    display: block;
-    width: 100%;
+  .login-container form div {
     margin-bottom: 10px;
   }
   
-  .login-container button {
+  .login-container form label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .login-container form input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  .login-container form button {
+    padding: 10px 20px;
     background-color: #007bff;
     color: #fff;
     border: none;
-    padding: 10px 20px;
     border-radius: 4px;
+    font-size: 16px;
     cursor: pointer;
   }
   
-  .login-container button:hover {
+  .login-container form button:hover {
     background-color: #0056b3;
   }
   
