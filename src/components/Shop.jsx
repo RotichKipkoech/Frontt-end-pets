@@ -24,7 +24,6 @@ function Shop() {
       price: 30,
       image: './src/images/rabbit.jpeg',
     },
-    // Add more items as needed
   ];
 
   return (
