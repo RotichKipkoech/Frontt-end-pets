@@ -1,0 +1,45 @@
+/* Shop.css */
+
+.shop-container {
+    text-align: center;
+  }
+  
+  .pet-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .pet-item {
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+  }
+  
+  .pet-item img {
+    max-width: 100%;
+  }
+  
+  .add-to-cart {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .add-to-cart:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid #4caf50;
+  }
+  
