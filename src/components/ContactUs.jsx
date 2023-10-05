@@ -4,8 +4,7 @@ import './contact.css';
 function ContactUs() {
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Add your form submission logic here
-    alert('Form submitted!'); // Example alert, replace with your logic
+    alert('Form submitted!'); // alert
   };
 
   return (
@@ -35,7 +34,6 @@ function ContactUs() {
           <li>
             <a href="https://www.instagram.com">Instagram</a>
           </li>
-          {/* Add more social media links as needed */}
         </ul>
       </div>
     </div>
