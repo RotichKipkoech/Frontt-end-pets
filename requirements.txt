@@ -1,4 +1,4 @@
-alembic==1.8.1.dev0
+alembic
 apturl==0.5.2
 bcrypt==3.2.2
 blinker==1.5
