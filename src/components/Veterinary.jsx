@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 import './vet.css';
+import NavBar from '../components/NavBar';
+
 
 function Veterinary() {
   const services = [
@@ -100,6 +102,8 @@ function Veterinary() {
 
   return (
     <div>
+      <NavBar />
+    <div>
       <h2>Veterinary Page</h2>
       {services.map((service) => (
         <div className="veterinary-service" key={service.id}>
@@ -142,6 +146,8 @@ function Veterinary() {
         </div>
       ))}
     </div>
+    </div>
+
   );
 }
 

@@ -1,32 +1,94 @@
 /* vet.css */
 
 .veterinary-service {
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 10px 0;
-    background-color: #f9f9f9;
-  }
-  
-  .veterinary-service h3 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-  }
-  
-  .veterinary-service p {
-    margin-bottom: 8px;
-  }
-  
-  .veterinary-service button {
-    padding: 8px 16px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .veterinary-service button:hover {
-    background-color: #0056b3;
-  }
-  
+  width: calc(33.33% - 20px);
+  box-sizing: border-box;
+  margin: 10px; /* Add vertical and horizontal margin */
+  display: inline-block;
+  vertical-align: top;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: beige;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
+}
+
+.veterinary-service h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.veterinary-service p {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.veterinary-service button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.veterinary-service button:hover {
+  background-color: #0056b3;
+}
+
+.booking-info {
+  margin-top: 10px;
+}
+
+.booking-info p {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.booking-modal {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 300px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.booking-modal h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.booking-modal label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.booking-modal input,
+.booking-modal select {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.booking-modal button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.booking-modal button:hover {
+  background-color: #0056b3;
+}

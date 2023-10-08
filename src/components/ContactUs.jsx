@@ -1,5 +1,6 @@
 import React from 'react';
 import './contact.css';
+import NavBar from '../components/NavBar';
 
 function ContactUs() {
   const handleSubmit = (e) => {
@@ -8,6 +9,8 @@ function ContactUs() {
   };
 
   return (
+    <div>
+            <NavBar />
     <div>
       <h2>Contact Us Page</h2>
       <div className="form-container">
@@ -36,6 +39,7 @@ function ContactUs() {
           </li>
         </ul>
       </div>
+    </div>
     </div>
   );
 }

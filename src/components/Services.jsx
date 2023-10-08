@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './services.css'; 
+import NavBar from '../components/NavBar';
 
 function Services() {
   const [selectedService, setSelectedService] = useState('');
@@ -28,6 +29,9 @@ function Services() {
   };
 
   return (
+    <div>
+            <NavBar />
+
     <div className="container">
       <h2 className="heading">Services Page</h2>
 
@@ -57,6 +61,8 @@ function Services() {
         </div>
       )}
     </div>
+    </div>
+
   );
 }
 
