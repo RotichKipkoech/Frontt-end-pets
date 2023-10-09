@@ -1,7 +1,4 @@
 alembic
-bcrypt
-blinker
-Brlapi
 certifi
 chardet
 cliapp
