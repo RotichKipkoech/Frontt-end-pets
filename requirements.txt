@@ -1,8 +1,8 @@
 alembic
-apturl==0.5.2
-bcrypt==3.2.2
+apturl
+bcrypt
 blinker
-Brlapi==0.8.4
+Brlapi
 certifi==2022.9.24
 chardet==5.1.0
 cliapp==1.20180812.1
