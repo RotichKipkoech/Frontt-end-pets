@@ -1,5 +1,4 @@
 alembic
-apturl
 bcrypt
 blinker
 Brlapi
