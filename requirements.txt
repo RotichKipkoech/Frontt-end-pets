@@ -1,7 +1,7 @@
 alembic
 bcrypt==3.2.2
-blinker==1.5
-Brlapi==0.8.4
+blinker
+Brlapi
 certifi==2022.9.24
 chardet==5.1.0
 cliapp==1.20180812.1
