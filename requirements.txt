@@ -1,5 +1,4 @@
 alembic
-apturl
 bcrypt==3.2.2
 blinker==1.5
 Brlapi==0.8.4
